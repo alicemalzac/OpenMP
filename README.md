@@ -20,12 +20,12 @@ export OMP_NUM_THREADS=8 (Para setar o número de threads que deseja)
   
 Exemplo: 
  
- -  Para rodar o arquivo hello.c, utilizei:
+ -  Para rodar o arquivo hello_world.c, utilizei:
     
   ``` 
-  gcc-11 -fopenmp hello.c -o hello
+  gcc-11 -fopenmp hello_world.c -o hello_world
   export OMP_NUM_THREADS=8 
-  ./hello
+  ./hello_world
   ```
   
 ### Lista de Programas nesse Repositorio:

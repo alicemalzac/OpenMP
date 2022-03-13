@@ -1,4 +1,4 @@
-## Código usando as diretivas do OpenMP 
+## Códigos usando as diretivas do OpenMP 
 
 ### Para instalar o Open no MacOS Monterey M1 utilizei os seguintes comandos:
 

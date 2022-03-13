@@ -1,4 +1,4 @@
-## Códigos feitos em C usando as diretivas do OpenMP 
+## Código usando as diretivas do OpenMP 
 
 ### Para instalar o Open no MacOS Monterey M1 utilizei os seguintes comandos:
 
@@ -28,7 +28,7 @@ Exemplo:
   ./hello_world
   ```
   
-### Lista de Programas nesse Repositorio:
+### Lista de Programas nesse Repositório:
   
 1. Hello World
 2. Fibonacci e Fatorial com diretivas OpenMP  

@@ -18,4 +18,9 @@ Exemplo:
   export OMP_NUM_THREADS=8 
   ./hello
   
+  
+Lista de Programas nesse Repositorio:
+  
+1. Hello World
+2. Fibonacci e Fatorial com diretivas OpenMP  
  

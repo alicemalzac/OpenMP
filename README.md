@@ -1,26 +1,25 @@
-## Códigos usando as diretivas do OpenMP 
+## Codes using OpenMP directives
 
-### Para instalar o Open no MacOS Monterey M1 utilizei os seguintes comandos:
-
+### To install Open on MacOS Monterey M1 I used the following commands:
 
 ```
 brew install gcc
 brew install libomp
-brew info gcc (Para descobrir qual versão do GCC foi instalado) 
+brew info gcc (To find out which version of GCC was installed) 
 ```
 
-### Para rodar o programa é necessário utilizar os seguintes comandos:
+### To run the program, use the following commands:
 
 
 ```
-gcc-11 -fopenmp <nome-do-arquivo>.c -o <nome-do-arquivo>
-export OMP_NUM_THREADS=8 (Para setar o número de threads que deseja)
-./<nome-do-arquivo> 
+gcc-11 -fopenmp <file-name>.c -o <file-name>
+export OMP_NUM_THREADS=8 (To set the number of threads you want)
+./<file-name> 
 ```
   
-Exemplo: 
+Example:
  
- -  Para rodar o arquivo hello_world.c, utilizei:
+ - To run the hello_world.c file, I used:
     
   ``` 
   gcc-11 -fopenmp hello_world.c -o hello_world
@@ -28,8 +27,8 @@ Exemplo:
   ./hello_world
   ```
   
-### Lista de Programas nesse Repositório:
+### List of Programs in this Repository:
   
 1. Hello World
-2. Fibonacci e Fatorial com diretivas OpenMP  
+2. Fibonacci and Factorial with OpenMP directives
  
